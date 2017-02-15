@@ -22,8 +22,8 @@ function deepestChild() {
    for(var i = 0, l = lis.length; i < l; i++) {
      const children = lis[i].children;
       for(let j = 0; j < children.length; j++){
-         var last = children[j].innerHTML;
-       }
+         var last = children[j];
+         }
        }
 return last;
 }
